@@ -1,0 +1,94 @@
+<!DOCTYPE html>  
+<html>  
+    <head>
+        <link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script
+	src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js">
+        </script>
+    </head>
+    
+    
+    <body>   
+        <h2 style="text-align: center;">Welcome to Thymeleaf Spring Boot web application From /Starter</h2>
+        
+        <div class="container my-5">
+            
+            <form action="Fruit" method="get">
+            
+            <div class="form-group row">
+				<div class="input-group">
+				        
+				    <div><h4>Click on Button to get available Fruits :</h4></div>
+					
+			     </div>
+			</div>
+			
+                <div class="form-group row">
+				    <div class="input-group">
+				        
+				    <div><input class="btn btn-primary" type="submit" value="GET-FRUITS" /></div>
+					
+			        </div>
+			    </div>
+            </form>
+            
+            <div class="form-group row">
+				<div class="input-group">
+				        
+				    <div><h4>   </h4></div>
+					
+			     </div>
+			</div>
+			
+            <div class="form-group row">
+				<div class="input-group">
+				        
+				    <div><h4>If you are interested in getting the member 1 and 2 of Fruit</h4></div>
+					
+			     </div>
+			</div>
+			
+			<div class="form-group row">
+				<div class="input-group">
+				        
+				    <div><h4>   </h4></div>
+					
+			     </div>
+			</div>
+			
+			<form action="/JoshFruit/FruitX/1/2" method="get">
+			    
+			 <div class="form-group row">
+				<div class="input-group">
+				        
+				    <div><h4>Click on Button to get Fruit Index 1 and 2</h4></div>
+					
+			     </div>
+			</div>
+			
+                <div class="form-group row">
+				    <div class="input-group">
+				        
+				    <div><input class="btn btn-secondary" type="submit" value="GET-FRUITX" /></div>
+					
+			        </div>
+			    </div>
+			    
+            </form>
+        </div>
+        <!--<h4>Now at /Starter</h4>
+        
+        <h4>These are all the fruits</h4>
+        
+        <h4 th:text="${fruits}"></h4>
+        
+        <h4>These is the Fruit index one member</h4>
+        
+        <h4 th:text="${HeadFruit}"></h4>
+        
+        <h4>Lets update a fruit</h4>-->
+    </body> 
+</html>

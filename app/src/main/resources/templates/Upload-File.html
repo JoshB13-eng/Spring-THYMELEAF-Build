@@ -1,0 +1,64 @@
+<!DOCTYPE html>  
+<html>  
+    <head>
+        <link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script
+	src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js">
+        </script>
+    </head>
+    
+     
+    <body>
+        
+        
+        <h2 style="text-align: center;">Now at /Upload</h2>
+        <div class="container my-5">
+            
+                
+			 <div class="form-group row">
+				    <div class="input-group">
+				        
+				    <div><h4 th:text="${opr}"></h4></div>
+					
+			    </div>
+			 </div>
+			
+			 
+			 <form action="DownloadBye" method="get">
+			    <div class="form-group row">
+				    <div class="input-group">
+				        
+				        <div class="input-group-prepend">
+						    <span class="input-group-text" id="inputGroupFileAddon01">Enter Your Name</span>
+					</div>
+					
+				         <div><input type="text" name="Name"></div>
+				         
+			     </div>
+			 </div>
+			 
+			 <div class="form-group row">
+				    <div class="input-group">
+				        
+				        <div class="input-group-prepend">
+						    <span class="input-group-text" id="inputGroupFileAddon01">Enter Your Age</span>
+					</div>
+					
+				         <div><input type="number" name="Age"></div>
+				         
+			     </div>
+			 </div>
+			 
+			 <div class="form-group row">
+				<div class="input-group">
+				        
+				    <div><input class="btn btn-secondary" type="submit" value="GO TO DOWNLOAD FILE" /></div>
+					
+			      </div>
+			 </div>
+        </div>
+    </body>
+</html>  
